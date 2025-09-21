@@ -26,7 +26,7 @@ This implementation was built iteratively, encountering and solving several comm
     ```
 2.  Run the script from your terminal:
     ```bash
-    python xor_nn_with_plots.py
+    python xor_nn.py
     ```
 
 The script will train the model, print the final loss and accuracy, and save the three analysis plots to the directory.
@@ -40,16 +40,19 @@ The final trained model successfully learns the XOR pattern with 100% accuracy. 
 ### Training Loss Curve
 
 This plot shows the Binary Cross-Entropy loss decreasing over 10,000 iterations. The smooth downward curve that flattens out near zero indicates that the model successfully converged to a solution.
+
 ![Model Training Loss](training_loss_curve.png)
 
 ### Training Accuracy Curve
 
 This plot shows the model's accuracy on the training data at each iteration. It quickly rises to 1.0 (100%) and stays there, showing that the model learned the pattern effectively.
+
 ![Model Training Accuracy](training_accuracy_curve.png)
 
 ### Confusion Matrix
 
 The confusion matrix gives a clear report card of the final model's performance. It shows that for both classes (0 and 1), there are 2 true predictions and 0 false predictions. This confirms the model is 100% accurate.
+
 ![Model Confusion](confusion_matrix.png)
 
 -----
