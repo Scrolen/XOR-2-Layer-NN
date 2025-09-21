@@ -51,6 +51,7 @@ This plot shows the model's accuracy on the training data at each iteration. It 
 
 The confusion matrix gives a clear report card of the final model's performance. It shows that for both classes (0 and 1), there are 2 true predictions and 0 false predictions. This confirms the model is 100% accurate.
 ![Model Confusion](confusion_matrix.png)
+
 -----
 
 ## Key Learning Journey
